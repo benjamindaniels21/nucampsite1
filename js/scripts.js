@@ -11,4 +11,6 @@
                     $("#carouselButton").children("i").addClass("fa-pause");
                 }
             });
+
+            //Task 2 (week 4) Goes here 
         });
