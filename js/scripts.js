@@ -1,6 +1,6 @@
   $(function(){
             $(".carousel").carousel({interval:2000});
-            $("#carouselButton").click(function(){
+            $("#carouselButton").on('click', function(){
                 if ($("#carouselButton").children("i").hasClass("fa-pause")){
                     $(".carousel").carousel("pause");
                     $("#carouselButton").children("i").removeClass("fa-pause");
@@ -11,6 +11,12 @@
                     $("#carouselButton").children("i").addClass("fa-pause");
                 }
             });
-
+            
             //Task 2 (week 4) Goes here 
+            /*
+            $("p").on('click',function){
+                $(this).hide();
+            }
+            
+            */ 
         });
